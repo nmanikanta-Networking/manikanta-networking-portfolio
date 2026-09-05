@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="N. Manikanta - Network Engineer portfolio showcasing Cisco networking labs, troubleshooting, Linux and Azure basics.">
+  <title>N. Manikanta | Network Engineer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a class="logo" href="#home">NM<span>.</span></a>
+      <button class="menu-btn" aria-label="Open menu">☰</button>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#troubleshooting">Troubleshooting</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">NETWORK ENGINEER • CCNA</p>
+          <h1>Building reliable networks.<br><span>Troubleshooting with confidence.</span></h1>
+          <p class="hero-text">
+            I’m N. Manikanta, a networking-focused graduate building practical skills in
+            Cisco networking, routing & switching, Linux, monitoring, and Azure fundamentals.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn secondary" href="assets/Manikanta_Network_Engineer_Resume.pdf" download>Download Resume</a>
+          </div>
+          <div class="quick-links">
+            <a href="https://github.com/nmanikanta-Networking" target="_blank" rel="noopener">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/manikanta-nallamekela-059ab6283" target="_blank" rel="noopener">LinkedIn ↗</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="terminal">
+            <div class="terminal-top"><span></span><span></span><span></span></div>
+            <p><b>Network Engineer Lab</b></p>
+            <p><span class="cmd">$</span> show ip interface brief</p>
+            <p>GigabitEthernet0/0 &nbsp; 10.10.10.1 &nbsp; up/up</p>
+            <p>GigabitEthernet0/1 &nbsp; 10.10.20.1 &nbsp; up/up</p>
+            <p><span class="cmd">$</span> show ip route</p>
+            <p><span class="ok">✓ Routing table verified</span></p>
+            <p><span class="cmd">$</span> ping 10.10.20.10</p>
+            <p><span class="ok">✓ Success — 5/5 replies</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container two-col">
+        <div>
+          <p class="eyebrow">ABOUT ME</p>
+          <h2>Networking is my focus.</h2>
+        </div>
+        <div>
+          <p>
+            I’m a Computer Science graduate focused on starting my career as a Network Engineer
+            / Network Administrator. I enjoy building Cisco Packet Tracer labs, understanding
+            how traffic moves through a network, and troubleshooting connectivity issues step by step.
+          </p>
+          <p>
+            My current foundation includes CCNA-level routing and switching, Linux basics,
+            network troubleshooting, monitoring concepts, and Azure fundamentals. I’m continuously
+            improving through hands-on labs and real-world scenarios.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="container">
+        <p class="eyebrow">TECHNICAL SKILLS</p>
+        <h2>What I work with</h2>
+        <div class="skill-grid">
+          <article class="skill"><span>01</span><h3>Routing & Switching</h3><p>IPv4, subnetting, static routing, OSPF, VLANs, trunking, STP/RSTP, EtherChannel.</p></article>
+          <article class="skill"><span>02</span><h3>Network Services</h3><p>DHCP, DNS, NAT/PAT, NTP, SNMP and basic network services troubleshooting.</p></article>
+          <article class="skill"><span>03</span><h3>High Availability</h3><p>HSRP, VRRP concepts, gateway redundancy and Layer 3 switching.</p></article>
+          <article class="skill"><span>04</span><h3>Security Basics</h3><p>Standard/extended ACLs, firewall concepts, VPN/IPsec fundamentals and secure access.</p></article>
+          <article class="skill"><span>05</span><h3>Tools</h3><p>Cisco Packet Tracer, Wireshark, tcpdump, Nmap, Zabbix and basic monitoring workflows.</p></article>
+          <article class="skill"><span>06</span><h3>Systems & Cloud</h3><p>Linux/Ubuntu, Windows basics, virtualization concepts and Microsoft Azure fundamentals.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <p class="eyebrow">HANDS-ON PROJECTS</p>
+        <h2>Networking labs</h2>
+        <p class="section-lead">Replace the demo GitHub links and screenshots with your own completed labs.</p>
+        <div class="project-grid">
+          <article class="project">
+            <div class="project-number">01</div><h3>Enterprise VLAN & Inter-VLAN Routing</h3>
+            <p>Designed multiple departments using VLANs, 802.1Q trunks and Layer 3 routing.</p>
+            <div class="tags"><span>VLAN</span><span>802.1Q</span><span>Routing</span></div>
+            <a href="https://github.com/nmanikanta-Networking" target="_blank" rel="noopener">View lab →</a>
+          </article>
+          <article class="project">
+            <div class="project-number">02</div><h3>DHCP Server & Relay</h3>
+            <p>Configured DHCP addressing and investigated why clients could not obtain IP addresses.</p>
+            <div class="tags"><span>DHCP</span><span>SVI</span><span>Helper</span></div>
+            <a href="https://github.com/nmanikanta-Networking" target="_blank" rel="noopener">View lab →</a>
+          </article>
+          <article class="project">
+            <div class="project-number">03</div><h3>OSPF Routing Lab</h3>
+            <p>Built a routed topology and verified neighbor relationships, routes and reachability.</p>
+            <div class="tags"><span>OSPF</span><span>IPv4</span><span>Routing</span></div>
+            <a href="https://github.com/nmanikanta-Networking" target="_blank" rel="noopener">View lab →</a>
+          </article>
+          <article class="project">
+            <div class="project-number">04</div><h3>HSRP Gateway Redundancy</h3>
+            <p>Configured first-hop redundancy and analyzed active/standby election behavior.</p>
+            <div class="tags"><span>HSRP</span><span>FHRP</span><span>HA</span></div>
+            <a href="https://github.com/nmanikanta-Networking" target="_blank" rel="noopener">View lab →</a>
+          </article>
+          <article class="project">
+            <div class="project-number">05</div><h3>EtherChannel with LACP</h3>
+            <p>Bundled physical links into a logical Port-Channel and verified negotiation and load sharing.</p>
+            <div class="tags"><span>LACP</span><span>Port-Channel</span><span>STP</span></div>
+            <a href="https://github.com/nmanikanta-Networking" target="_blank" rel="noopener">View lab →</a>
+          </article>
+          <article class="project">
+            <div class="project-number">06</div><h3>Enterprise Network Design</h3>
+            <p>Combined VLANs, DHCP, routing, redundancy and access controls into a practical topology.</p>
+            <div class="tags"><span>Enterprise</span><span>CCNA</span><span>Troubleshooting</span></div>
+            <a href="https://github.com/nmanikanta-Networking" target="_blank" rel="noopener">View lab →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="troubleshooting" class="section alt">
+      <div class="container">
+        <p class="eyebrow">TROUBLESHOOTING</p>
+        <h2>How I approach network problems</h2>
+        <div class="trouble">
+          <div class="step"><b>01</b><h3>Identify</h3><p>Understand the symptom, affected users, VLAN/subnet and scope of the outage.</p></div>
+          <div class="step"><b>02</b><h3>Check Layer 1/2</h3><p>Verify interfaces, cabling, VLAN membership, trunks, STP and EtherChannel.</p></div>
+          <div class="step"><b>03</b><h3>Check Layer 3</h3><p>Verify IP addressing, gateway, routing table, ARP and reachability.</p></div>
+          <div class="step"><b>04</b><h3>Fix & Verify</h3><p>Apply the smallest safe change, test end-to-end and document the root cause.</p></div>
+        </div>
+        <div class="case-study">
+          <div><span class="case-label">CASE STUDY</span><h3>DHCP clients not receiving an IP address</h3></div>
+          <p><b>Checks:</b> VLAN → trunk → SVI → DHCP scope → relay/helper address → client lease.</p>
+          <p><b>Verification:</b> <code>show vlan brief</code> · <code>show interfaces trunk</code> · <code>show ip interface brief</code> · <code>show ip dhcp binding</code></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications" class="section">
+      <div class="container">
+        <p class="eyebrow">CERTIFICATIONS & LEARNING</p>
+        <h2>My foundation</h2>
+        <div class="cert-grid">
+          <div class="cert"><div class="cert-icon">CCNA</div><div><h3>Cisco CCNA</h3><p>Routing, switching, IP addressing, services, security basics and troubleshooting.</p></div></div>
+          <div class="cert"><div class="cert-icon">AZ</div><div><h3>MCSE Azure Basics</h3><p>Azure and cloud fundamentals with an infrastructure-focused learning path.</p></div></div>
+          <div class="cert"><div class="cert-icon">LAB</div><div><h3>Continuous Hands-on Practice</h3><p>Packet Tracer, Linux, Wireshark, monitoring and scenario-based troubleshooting.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact">
+        <div>
+          <p class="eyebrow">LET'S CONNECT</p>
+          <h2>Looking for a Network Engineer L1 opportunity.</h2>
+          <p>I’m open to entry-level networking, network administration and infrastructure support opportunities.</p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:nmanikanta.cse2025@gmail.com">nmanikanta.cse2025@gmail.com</a>
+          <a href="https://www.linkedin.com/in/manikanta-nallamekela-059ab6283" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="https://github.com/nmanikanta-Networking" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer">
+      <span>© 2026 N. Manikanta</span>
+      <span>Network Engineer Portfolio</span>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
